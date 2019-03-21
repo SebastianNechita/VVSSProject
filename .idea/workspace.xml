@@ -3,6 +3,174 @@
   <component name="ChangeListManager">
     <list default="true" id="fa4e803d-835c-46a4-b600-939a50a377c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/.idea/externalDependencies.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/LabAssiAsseProjectV03 - Copy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/LabAssiAsseProjectV03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/LabAssiAsseRequirements .pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/MonitorizareTemeLaboratorV03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/Nota.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/NotaXML.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/NoteStudenti.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/StudentiXML.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/TemaLaborator.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/TemaLaboratorXML.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/XMLStdTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/CrudRepoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Domain/HasId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Domain/Nota.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Domain/TemaLab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Exceptions/RepositoryException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Exceptions/ServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Exceptions/ValidatorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Repository/MemoryRepository/AbstractCrudRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Repository/MemoryRepository/NotaRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Repository/MemoryRepository/StudentRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Repository/MemoryRepository/TemaLabRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Repository/Repo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Repository/TxtFileRepository/AbstractFileRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Repository/TxtFileRepository/NotaFileRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Repository/TxtFileRepository/StudentFileRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Repository/TxtFileRepository/TemaLabFileRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Repository/XMLFileRepository/AbstractXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Repository/XMLFileRepository/NotaXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Repository/XMLFileRepository/StudentXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Repository/XMLFileRepository/TemaLabXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Service/TxtFileService/AbstractService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Service/TxtFileService/NotaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Service/TxtFileService/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Service/TxtFileService/TemaLabService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Service/XMLFileService/AbstractXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Service/XMLFileService/NotaXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Service/XMLFileService/StudentXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Service/XMLFileService/TemaLabXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/TestStd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/UI/ui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Validator/IValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Validator/NotaValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Validator/StudentValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/LabAssiAsseProjectV03/Validator/TemaLabValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/CrudRepoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Domain/HasId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Domain/Nota.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Domain/TemaLab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Exceptions/RepositoryException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Exceptions/ServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Exceptions/ValidatorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Repository/MemoryRepository/AbstractCrudRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Repository/MemoryRepository/NotaRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Repository/MemoryRepository/StudentRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Repository/MemoryRepository/TemaLabRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Repository/Repo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Repository/TxtFileRepository/AbstractFileRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Repository/TxtFileRepository/NotaFileRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Repository/TxtFileRepository/StudentFileRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Repository/TxtFileRepository/TemaLabFileRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Repository/XMLFileRepository/AbstractXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Repository/XMLFileRepository/NotaXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Repository/XMLFileRepository/StudentXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Repository/XMLFileRepository/TemaLabXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Service/TxtFileService/AbstractService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Service/TxtFileService/NotaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Service/TxtFileService/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Service/TxtFileService/TemaLabService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Service/XMLFileService/AbstractXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Service/XMLFileService/NotaXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Service/XMLFileService/StudentXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Service/XMLFileService/TemaLabXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/TestStd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/UI/ui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Validator/IValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Validator/NotaValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Validator/StudentValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/out/production/MonitorizareTemeLaboratorV03/Validator/TemaLabValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Domain/HasId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Domain/Nota.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Domain/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Domain/TemaLab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Exceptions/RepositoryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Exceptions/ServiceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Exceptions/ValidatorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Repository/MemoryRepository/AbstractCrudRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Repository/MemoryRepository/NotaRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Repository/MemoryRepository/StudentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Repository/MemoryRepository/TemaLabRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Repository/Repo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Repository/TxtFileRepository/AbstractFileRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Repository/TxtFileRepository/NotaFileRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Repository/TxtFileRepository/StudentFileRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Repository/TxtFileRepository/TemaLabFileRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Repository/XMLFileRepository/NotaXMLRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Repository/XMLFileRepository/StudentXMLRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Repository/XMLFileRepository/TemaLabXMLRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Service/TxtFileService/AbstractService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Service/TxtFileService/NotaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Service/TxtFileService/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Service/TxtFileService/TemaLabService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Service/XMLFileService/AbstractXMLService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Service/XMLFileService/NotaXMLService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Service/XMLFileService/StudentXMLService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Service/XMLFileService/TemaLabXMLService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/TestStd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/UI/ui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Validator/IValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Validator/NotaValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Validator/StudentValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/Validator/TemaLabValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/main/java/javatpoint/testcase/CrudRepoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/src/test/java/Repository/MemoryRepository/StudentRepoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/studenti.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Domain/HasId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Domain/Nota.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Domain/TemaLab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Exceptions/RepositoryException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Exceptions/ServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Exceptions/ValidatorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Repository/MemoryRepository/AbstractCrudRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Repository/MemoryRepository/NotaRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Repository/MemoryRepository/StudentRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Repository/MemoryRepository/TemaLabRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Repository/Repo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Repository/TxtFileRepository/AbstractFileRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Repository/TxtFileRepository/NotaFileRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Repository/TxtFileRepository/StudentFileRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Repository/TxtFileRepository/TemaLabFileRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Repository/XMLFileRepository/AbstractXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Repository/XMLFileRepository/NotaXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Repository/XMLFileRepository/StudentXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Repository/XMLFileRepository/TemaLabXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Service/TxtFileService/AbstractService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Service/TxtFileService/NotaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Service/TxtFileService/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Service/TxtFileService/TemaLabService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Service/XMLFileService/AbstractXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Service/XMLFileService/NotaXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Service/XMLFileService/StudentXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Service/XMLFileService/TemaLabXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/UI/ui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Validator/IValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Validator/NotaValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Validator/StudentValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/Validator/TemaLabValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/classes/javatpoint/testcase/CrudRepoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/target/test-classes/Repository/MemoryRepository/StudentRepoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabAssiAsseProjectV03 - Copy/testStdService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,8 +185,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="324">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -27,7 +195,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/StudentRepo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="35" />
+              <caret column="8" selection-start-column="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -35,8 +203,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/StudentRepoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="104">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,13 +231,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/StudentRepoTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -93,34 +261,35 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="mavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LabAssiAsseProjectV03 - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="VVSSProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LabAssiAsseProjectV03 - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="VVSSProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LabAssiAsseProjectV03 - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="VVSSProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LabAssiAsseProjectV03 - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="VVSSProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LabAssiAsseProjectV03 - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="VVSSProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -130,7 +299,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,6 +390,8 @@
       <updated>1553160324796</updated>
       <workItem from="1553160326248" duration="953000" />
       <workItem from="1553161877261" duration="854000" />
+      <workItem from="1553163419310" duration="21000" />
+      <workItem from="1553163466157" duration="25000" />
     </task>
     <servers />
   </component>
@@ -240,11 +410,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1807000" />
+    <option name="totallyTimeSpent" value="1853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -289,6 +458,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/StudentRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Service/XMLFileService/NotaXMLService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -296,24 +479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/StudentRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/StudentRepoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="104">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
