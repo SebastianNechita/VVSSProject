@@ -140,4 +140,14 @@ public class StudentRepoTest {
             assert true;
         }
     }
+
+    @Test
+    public void addStudentIndrumatorNull() {
+        try {
+            repo.save(new Student("1", "emi", 935, "abc@gmail.com", null));
+            assert false;
+        } catch (ValidatorException e) {
+            assert true;
+        }
+    }
 }
