@@ -43,15 +43,36 @@ public class TemaLabRepoTest {
     }
 
     @Test
+    public void addAssignmentIdZero() {
+        assignment.setId(0);
+        addWithoutCrash();
+    }
+
+    //Test 1
+    @Test
+    public void addAssigmentNull(){
+        try {
+            repo.save(null);
+            assert false;
+        } catch (IllegalArgumentException e) {
+            assert true;
+        } catch (ValidatorException e) {
+            assert false;
+        }
+        assertEquals(repo.size(), 0);
+    }
+
+    //Test 2
+    @Test
     public void addAssignmentIdNull() {
         assignment.setId(null);
         addWithCrash();
     }
 
+    //Test 3
     @Test
-    public void addAssignmentIdZero() {
-        assignment.setId(0);
-        addWithCrash();
+    public void addAssignment() {
+        addWithoutCrash();
     }
 
 
