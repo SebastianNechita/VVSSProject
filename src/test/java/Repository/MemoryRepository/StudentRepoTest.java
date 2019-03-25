@@ -11,15 +11,26 @@ import static org.junit.Assert.*;
 
 public class StudentRepoTest {
     StudentRepo repo;
+    Student genericStudent;
     @Before
     public void setUp() {
         repo = new StudentRepo(new StudentValidator());
+        genericStudent = new Student(12, "abc", 12, "a@b.com", "indrumator");
     }
 
-    @Test
-    public void addStudent() {
+    public void addWithCrash(){
         try {
-            repo.save(new Student("1", "Sebi", 935, "sebinechita@yahoo.com", "Prof. Laura Diosan"));
+            repo.save(genericStudent);
+            assert false;
+        } catch (ValidatorException e) {
+            assert true;
+        }
+        assertEquals(repo.size(), 0);
+    }
+
+    public void addWithoutCrash(){
+        try {
+            repo.save(genericStudent);
         } catch (ValidatorException e) {
             assert false;
         }
@@ -27,127 +38,140 @@ public class StudentRepoTest {
     }
 
     @Test
-    public void addStudentName() {
-        try {
-            repo.save(new Student("1", "Sebi", 935, "sebinechita@yahoo.com", "Prof. Laura Diosan"));
-        } catch (ValidatorException e) {
-            assert false;
-        }
-        assertEquals(repo.size(), 1);
-    }
+    public void addStudent() throws ValidatorException {
+        repo.save(genericStudent);
+        assertEquals(repo.size(), 1);    }
 
+    //Test 1
     @Test
     public void addStudentNameNull() {
-        try {
-            repo.save(new Student("1", null, 935, "sebinechita@yahoo.com", "Prof. Laura Diosan"));
-            assert false;
-        } catch (ValidatorException e) {
-            assert true;
-        }
+        genericStudent.setNume(null);
+        addWithCrash();
+
     }
 
+    //Test 2
+    @Test
+    public void addStudentName() {
+        genericStudent.setNume("a");
+        addWithoutCrash();
+    }
+    //Test 3
     @Test
     public void addStudentNameEmpty() {
-        try {
-            repo.save(new Student("1", "", 935, "sebinechita@yahoo.com", "Prof. Laura Diosan"));
-            assert false;
-        } catch (ValidatorException e) {
-            assert true;
-        }
+        genericStudent.setNume("");
+        addWithCrash();
     }
-
-    //TODO addStudentId...
-
+    //Test 4
     @Test
-    public void addStudentEmail() {
-        try {
-            repo.save(new Student("1", "emi", 935, "abc@gmail.com", "Prof. Laura Diosan"));
-            assert true;
-        } catch (ValidatorException e) {
-            assert false;
-        }
-        assertEquals(repo.size(), 1);
+    public void addStudentNameOfSize2() {
+        genericStudent.setNume("ab");
+        addWithoutCrash();
     }
-
+    //Test the id
+    //Test 5
+    @Test
+    public void addStudentIdZero() {
+        genericStudent.setId(0);
+        addWithCrash();
+    }
+    //Test 6
+    @Test
+    public void addStudentIdNegative() {
+        genericStudent.setNume("ab");
+        addWithoutCrash();
+    }
+    //Test 7
+    @Test
+    public void addStudentId1() {
+        genericStudent.setId(1);
+        addWithoutCrash();
+    }
+    //Test 8
+    @Test
+    public void addStudentId2() {
+        genericStudent.setId(2);
+        addWithoutCrash();
+    }
+    //Test 9
     @Test
     public void addStudentEmailNull() {
-        try {
-            repo.save(new Student("1", "emi", 935, null, "Prof. Laura Diosan"));
-            assert false;
-        } catch (ValidatorException e) {
-            assert true;
-        }
+        genericStudent.setEmail(null);
+        addWithCrash();
     }
-
+    //Test 10
     @Test
     public void addStudentEmailEmpty() {
-        try {
-            repo.save(new Student("1", "emi", 935, "", "Prof. Laura Diosan"));
-            assert false;
-        } catch (ValidatorException e) {
-            assert true;
-        }
+        genericStudent.setEmail("");
+        addWithCrash();
+    }
+    //Test 11
+    @Test
+    public void addStudentEmail() {
+        genericStudent.setEmail("@");
+        addWithoutCrash();
+    }
+    //Test 12
+    @Test
+    public void addStudentEmailLen2() {
+        genericStudent.setEmail("a@");
+        addWithoutCrash();
     }
 
     @Test
     public void addStudentEmailWrong() {
-        try {
-            repo.save(new Student("1", "emi", 935, "abc.com", "Prof. Laura Diosan"));
-            assert false;
-        } catch (ValidatorException e) {
-            assert true;
-        }
+        addStudentEmailEmpty();
     }
-
-    @Test
-    public void addStudentGroup() {
-        try {
-            repo.save(new Student("1", "emi", 935, "abc@gmail.com", "Prof. Laura Diosan"));
-            assert true;
-        } catch (ValidatorException e) {
-            assert false;
-        }
-        assertEquals(repo.size(), 1);
-    }
-
+    //Test 13
     @Test
     public void addStudentGroupWrong() {
-        try {
-            repo.save(new Student("1", "emi", -123, "abc@gmail.com", "Prof. Laura Diosan"));
-            assert false;
-        } catch (ValidatorException e) {
-            assert true;
-        }
+        genericStudent.setGrupa(-1);
+        addWithCrash();
     }
-
+    //Test 14
     @Test
-    public void addStudentIndrumator() {
-        try {
-            repo.save(new Student("1", "emi", 935, "abc@gmail.com", "Prof. Laura Diosan"));
-            assert true;
-        } catch (ValidatorException e) {
-            assert false;
-        }
-        assertEquals(repo.size(), 1);
+    public void addStudentGroupWrong2() {
+        genericStudent.setGrupa(-2);
+        addWithCrash();
     }
-
+    //Test 15
     @Test
-    public void addStudentIndrumatorEmpty() {
-        try {
-            repo.save(new Student("1", "emi", 935, "abc@gmail.com", ""));
-            assert false;
-        } catch (ValidatorException e) {
-            assert true;
-        }
+    public void addStudentGroup() {
+        genericStudent.setGrupa(0);
+        addWithoutCrash();
     }
-
+    //Test 16
+    @Test
+    public void addStudentGroup1() {
+        genericStudent.setGrupa(1);
+        addWithoutCrash();
+    }
+    //Test 17
     @Test
     public void addStudentIndrumatorNull() {
-        try {
-            repo.save(new Student("1", "emi", 935, "abc@gmail.com", null));
-            assert false;
-        } catch (ValidatorException e) {
-            assert true;
-        }
+        genericStudent.setIndrumator(null);
+        addWithCrash();
     }
+    //Test 18
+    @Test
+    public void addStudentIndrumatorEmpty() {
+        genericStudent.setIndrumator("");
+        addWithCrash();
+    }
+    //Test 19
+    @Test
+    public void addStudentIndrumator() {
+        genericStudent.setIndrumator("a");
+        addWithoutCrash();
+    }
+    //Test 20
+    @Test
+    public void addStudentIndrumator2() {
+        genericStudent.setIndrumator("ab");
+        addWithoutCrash();
+    }
+
+
+
+
 }

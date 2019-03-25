@@ -14,7 +14,7 @@ public class StudentFileRepo extends AbstractFileRepository {
 
     @Override
     public HasId extractEntity(String[] info) {
-        String id = info[0];
+        Integer id = Integer.parseInt(info[0]);
         String nume = info[1];
         int grup = Integer.parseInt(info[2]);
         String email = info[3];

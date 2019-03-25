@@ -3,7 +3,7 @@ package Service.XMLFileService;
 import Domain.Student;
 import Repository.XMLFileRepository.StudentXMLRepo;
 
-public class StudentXMLService extends AbstractXMLService<String,Student>{
+public class StudentXMLService extends AbstractXMLService<Integer,Student>{
     private StudentXMLRepo xmlrepo;
 
     public StudentXMLService(StudentXMLRepo xmlrepo)  {
@@ -18,7 +18,7 @@ public class StudentXMLService extends AbstractXMLService<String,Student>{
         }catch(NumberFormatException ex){
             System.out.println(ex.getMessage());
         }
-        return new Student(params[0],params[1],grupa,params[3],params[4]);
+        return new Student(Integer.parseInt(params[0]),params[1],grupa,params[3],params[4]);
     }
 
 }

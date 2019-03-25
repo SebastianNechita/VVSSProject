@@ -114,9 +114,9 @@ public class ui {
 
     public void delStudent() throws ValidatorException {
         Scanner scanner = new Scanner(System.in);
-        String id;
+        Integer id;
         System.out.println("Id student:");
-        id=scanner.nextLine();
+        id=Integer.parseInt(scanner.nextLine());
         try{
             stdSrv.remove(id);
         }catch(ServiceException ex){
