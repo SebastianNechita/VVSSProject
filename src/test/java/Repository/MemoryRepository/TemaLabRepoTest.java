@@ -51,7 +51,7 @@ public class TemaLabRepoTest {
     @Test
     public void addAssignmentIdZero() {
         assignment.setId(0);
-        addWithoutCrash();
+        addWithCrash();
     }
 
 
