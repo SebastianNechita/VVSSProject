@@ -17,7 +17,7 @@ public class TemaLabFileRepo extends AbstractFileRepository {
         String descr = info[1];
         int sptLim = Integer.parseInt(info[2]);
         int sptPred = Integer.parseInt(info[3]);
-        TemaLab t = new TemaLab(id, descr, sptLim, sptPred);
+        TemaLab t = new TemaLab(new Integer(id), descr, sptLim, sptPred);
         return t;
 
     }
