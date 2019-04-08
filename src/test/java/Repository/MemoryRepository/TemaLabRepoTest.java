@@ -14,7 +14,7 @@ public class TemaLabRepoTest {
     @Before
     public void setUp() {
         repo = new TemaLabRepo(new TemaLabValidator());
-        assignment = new TemaLab(10, "descriere", 13, 13);
+        assignment = new TemaLab(new Integer(10), "descriere", 13, 13);
     }
 
     public void addWithCrash(){
