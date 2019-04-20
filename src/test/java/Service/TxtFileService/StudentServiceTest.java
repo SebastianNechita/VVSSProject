@@ -32,4 +32,17 @@ public class StudentServiceTest {
         assert(studentService.size() == 1);
     }
 
+    @Test
+    public void addStudentTopDown() {
+
+        assert(studentService.size() == 0);
+        try{
+            studentService.add(new String[]{"1", "Emy", "935", "emy@emy.emy", "yme"});
+        }
+        catch (ValidatorException e) {
+            assert(false);
+        }
+        assert(studentService.size() == 1);
+    }
+
 }
